@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"golang/anonymousfunction"
+)
 
 func main() {
-	fmt.Printf("Hello world")
+	// anonymousfunction.Function()
+	anonymousfunction.Example()
 }
